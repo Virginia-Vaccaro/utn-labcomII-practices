@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+</head>
+<body style="color: #060605; background-color: rgb(132 212 118); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <h1>Datos personales</h1>
+    <hr>
+    <form>
+        <label for="usuario" style="display:block;">Nombre y apellido</label>
+        <input type="text" id="nombre" name="nombre" style="width: 20%; padding: 7px 0px; padding-left: 5px;">
+        <br>
+        <br>
+        <label for="email" style="display:block;">E-mail</label>
+        <input type="text" id="email" name="email" style="width: 20%; padding: 7px 0px; padding-left: 5px;">
+        <br>
+        <br>
+        <label for="edad" style="display:block;">Edad</label>
+        <input type="number" id="edad" name="edad" style="width: 10%; padding: 7px 0px; padding-left: 5px;">
+        <br>
+        <br>
+        <label for="seleccionable">Seleccione su nacionalidad</label>
+        <select name="seleccionable" id="seleccionable">
+            <option value="argentino">Argentina</option>
+            <option value="brasileña">Brasileña</option>
+            <option value="chileno">Chilena</option>
+            <option value="paraguaya">Paraguaya</option>
+            <option value="uruguaya">Uruguaya</option>
+            <option value="otra">Otra</option>
+        </select>
+        <br>
+        <br>
+        <label for="seleccion">Seleccione su condición laboral</label>
+        <select name="seleccion" id="seleccion">
+            <option value="desempleado">Desempleado</option>
+            <option value="busquedalaboral">En búsqueda laboral</option>
+            <option value="trabajoPT">Trabajo part time</option>
+            <option value="trabajoFT">Trabajo full time</option>
+        </select>
+        <br>
+        <br>
+        <fieldset>
+            <legend><i>Gustos personales</i></legend>
+            <br>
+            <label for="musica" style="display:block;">Música favorita:</label>
+            <input type="text" id="musica" name="musica" style="width: 20%; padding: 7px 0px; padding-left: 5px;">
+            <br>
+            <br>
+            <label for="seleccionable">Comida preferida</label>
+            <select name="seleccionable" id="seleccionable">
+            <option value="Pastas">Pastas</option>
+            <option value="pizzas">Pizzas</option>
+            <option value="comidaChina">Comida china</option>
+            <option value="comidaMexicana">Comida Mexicana</option>
+            <option value="otra">Otra</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Enviar" style="background-color: #255e12; border-color: white; display: block; color: white; font-weight: bold; margin: 0 auto; padding: 10px 15px; border-radius: 5px;">
+            <br>
+            <input type="checkbox" name="check" id="check">
+            <label for="check" style="font-size: 13px;">Recordar datos</label>
+        </fieldset>
+    </form>
+</body>
+</html>
