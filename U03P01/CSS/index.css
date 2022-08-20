@@ -1,0 +1,61 @@
+body{
+    font-family: sans-serif;
+} 
+
+html{
+    background-color: rgb(245, 245, 245)
+}
+
+h1{
+    color: #242424;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+h2{
+    color: #606060;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+p{
+    font-size: 14px;
+    margin: 30px 0px;
+}
+
+ul li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    padding: 10px;
+}
+
+ul{
+    list-style-type: none;
+    border: 2px solid blue;
+    padding: 20px;
+    margin-left: 100px;              
+    max-width: 40%;
+}
+
+a{
+    cursor: pointer;
+    font-weight: 700;
+}
+
+ul li a{
+    color: orange;
+    text-decoration: underline orange;
+}
+
+.textverde{
+    color: green !important;
+}
+
+.textverde a{
+    color: green !important;
+    text-decoration: underline green !important;
+}
+
+ul li:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
