@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora EPE</title>
+</head>
+<body>
+    <header>
+        <h1>EMPRESA PROVINCIAL DE LA ENERGÍA DE SANTA FE</h1>
+
+    </header>
+    <main>
+        <h2>Calculadora de costo de energía eléctrica</h2>
+            <section id="cargar-campos">
+                <form>
+                    <p>Completa los siguientes campos:</p>
+                    <label for="seleccion">Tipo de usuario</label>
+                    <select name="seleccion" id="seleccion">
+                        <option value="residencial">Residencial</option>
+                        <option value="industrial">Industrial</option>
+                    </select><br>
+                    <label for="selec-domicilio">Zona de domicilio</label>
+                    <select name="selec-domicilio" id="selec-domicilio">
+                        <option value="centro">Distrito Centro</option>
+                        <option value="sur">Distrito Sur</option>
+                        <option value="oeste">Distrito Oeste</option>
+                        <option value="norte">Distrito Norte</option>
+                    </select><br>
+                    <label for="kwh-mes">Cantidad de KWh del mes:</label>
+                    <input type="number" name="kwh-mes" id="kwh-mes"><br>
+                    <input type="submit" value="Calcular consumo">
+                </form>
+            </section>
+        <h4>Importe a abonar:</h4>
+    </main>
+</body>
+</html>
