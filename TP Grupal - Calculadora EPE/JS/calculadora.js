@@ -16,14 +16,14 @@ document.getElementById("selec-domicilio").onchange = function () { selecDomicil
 form.addEventListener('submit', (e) => {
 
     let mensajes = []; //Creo array para almacenar todos los mensajes de error
-
+    limpiarResultado();  //Elimina el resultado 
     if (domicilio.value == "0") {
         mensajes.push('*Seleccione la Zona de su domicilio para continuar'); //Aplico el metodo push para cada mensaje
     }
     if (usuario.value == "0") {
         mensajes.push('*Seleccione un Tipo de Usuario para continuar');
     }
-    if (cantidadKwh.value <= 0 || cantidadKwh.value == null) {
+    if (cantidadKwh.value <= 0 || cantidadKwh.value == null) {     
         mensajes.push('*Cantidad de kWh incorrecto (tiene que ser un número positivo).');
     }
 
@@ -76,10 +76,9 @@ function selecUsuario() {
     return iva;
 }
 
-
-//function limpiar() {
-
-//}
+function limpiarResultado() {
+    document.getElementById('resultado').innerText = '';
+}
 
 
 function calculo() { //Funcion calculo
