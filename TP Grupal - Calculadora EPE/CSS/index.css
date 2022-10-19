@@ -1,7 +1,14 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(8, 8, 138);
     background-color: #fbf3f1;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
 }
 
 img{
@@ -17,12 +24,13 @@ img{
     color: #23236a;
 }
 
-
 h2{
     background-color: #282878;
     text-align: center;
     color: white;
     padding: 10px;
+    border-radius: 0px 0px 30px 30px;
+    margin-top: 0%;
 }
 
 #form{
@@ -32,7 +40,13 @@ h2{
     width: 30%;
     text-align: center;
     align-items: center;
-    padding-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    box-shadow: 2px .5px 8px #000000;
+    border-radius: 20px;
 }
 
 #cargar-campos{
@@ -47,6 +61,9 @@ form button{
     width: 18%;
     border-color: rgb(243, 114, 114);
     border-radius: 5%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 6px 6px 6px 6px;
 }
 
 form select{
@@ -67,3 +84,15 @@ form input{
     font-weight: bold;
     text-align: center;
 }
+
+label{
+    margin: 2px;
+    padding: 2px;
+}
+
+select, input{
+    margin: 1px;
+    padding: 1px;
+    border-radius: 3px 3px 3px 3px;
+}
+
